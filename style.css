@@ -4,9 +4,8 @@
        url('./webfontkit-20250414-163006/norse-bold-webfont.woff') format('woff');
   font-weight: normal;
   font-style: normal;
-
 }
 
-.logo {
+.logo-text {
   font-family: 'norsebold';
 }
