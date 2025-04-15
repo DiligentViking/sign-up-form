@@ -14,14 +14,31 @@
 }
 
 
-.logo-text {
-  font-family: 'norsebold';
+body {
+  display: flex;
 }
 
 
 .left-side {
   max-height: 100vh;
   width: auto;
-  height: auto;
   /* border: 2px solid red; */
+}
+
+
+.logo {
+  position: absolute;
+  /* bottom: 50px; */
+}
+
+
+.logo-text {
+  font-family: 'norsebold';
+  color: red;
+}
+
+
+.the-form {
+  position: relative;  /* begin the plan */
+  background-color: yellow;
 }
