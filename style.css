@@ -6,6 +6,22 @@
   font-style: normal;
 }
 
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;  /* nice and clean */
+}
+
+
 .logo-text {
   font-family: 'norsebold';
+}
+
+
+.left-side {
+  max-height: 100vh;
+  width: auto;
+  height: auto;
+  /* border: 2px solid red; */
 }
