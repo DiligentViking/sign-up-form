@@ -39,12 +39,12 @@ body {
 
 
 .the-form {
-  background-color: rgb(240, 240, 240);
+  background-color: rgb(250, 250, 250);
 }
 
 
 .description {
-  font-size: 20px;
+  font-size: 22px;
   font-weight: bold;
   padding: 175px 150px 60px 40px;
 }
@@ -56,6 +56,17 @@ body {
 
 
 .input-area {
+  background-color: white;
   padding: 20px 20px 30px 40px;
   margin-bottom: 30px;
+  box-shadow: 6px 6px 10px rgb(185, 185, 185);
 }
+
+
+.input-area > h1 {
+  font-size: 22px;
+  font-weight: bold;
+  margin-bottom: 25px;
+}
+
+
