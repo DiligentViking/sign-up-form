@@ -70,3 +70,34 @@ body {
 }
 
 
+.input-row {
+  display: flex;
+  gap: 75px;
+}
+
+
+.input-row + .input-row {
+  margin-top: 30px;
+}
+
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+}
+
+
+label {
+  font-size: 12px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  margin-bottom: 2px;
+}
+
+
+input {
+  width: 250px;
+  height: 30px;
+  border: 1px solid #E5E7EB;
+  border-radius: 4px;
+}
